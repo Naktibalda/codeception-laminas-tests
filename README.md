@@ -1,8 +1,8 @@
 ## Deployment
 
-git clone --recursive https://github.com/Naktibalda/codeception-zf2-tests.git
+git clone --recursive https://github.com/Naktibalda/codeception-laminas-tests.git
 
-cd codeception-zf2-tests
+cd codeception-laminas-tests
 
 composer install
 

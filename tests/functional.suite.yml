@@ -9,6 +9,6 @@ modules:
   enabled: 
     - FunctionalHelper
     - Asserts
-    - ZF2
+    - Laminas
     - REST:
-        depends: ZF2
+        depends: Laminas

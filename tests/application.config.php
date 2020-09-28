@@ -5,10 +5,8 @@ $modules = [
     'DoctrineORMModule',
 ];
 
-if (interface_exists('\Zend\Router\RouteInterface')) {
-    $modules []= 'Zend\Router';
-    $modules []= 'Zend\I18n';
-    $modules []= 'Zend\Mvc\I18n';
+if (interface_exists('\Laminas\Router\RouteInterface')) {
+    $modules []= 'Laminas\Router';
 }
 
 return array(
@@ -69,6 +67,6 @@ return array(
     // )
 
    // Initial configuration with which to seed the ServiceManager.
-   // Should be compatible with Zend\ServiceManager\Config.
+   // Should be compatible with Laminas\ServiceManager\Config.
    // 'service_manager' => array(),
 );

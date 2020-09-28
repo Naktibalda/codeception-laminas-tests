@@ -2,8 +2,8 @@ class_name: DoctrineTester
 modules:
     enabled:
         - \Helper\Doctrine
-        - ZF2:
+        - Laminas:
             em_service: doctrine.entitymanager.orm_default
         - Doctrine2:
             depends:
-              ZF2
+                Laminas

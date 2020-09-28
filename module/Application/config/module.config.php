@@ -2,10 +2,10 @@
 
 namespace Application;
 
-if (interface_exists('\Zend\Router\RouteInterface')) {
-    $routerPrefix = '\Zend\Router\\';
+if (interface_exists('\Laminas\Router\RouteInterface')) {
+    $routerPrefix = '\Laminas\Router\\';
 } else {
-    $routerPrefix = '\Zend\Mvc\Router\\';
+    $routerPrefix = '\Laminas\Mvc\Router\\';
 }
 
 return array(
