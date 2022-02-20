@@ -1,4 +1,4 @@
-class_name: DoctrineTester
+actor: DoctrineTester
 modules:
     enabled:
         - \Helper\Doctrine
