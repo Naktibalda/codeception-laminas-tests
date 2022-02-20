@@ -1,8 +1,9 @@
 {
     "minimum-stability": "dev",
     "require": {
+        "doctrine/dbal": "^2.11 | ^3.0",
         "doctrine/doctrine-orm-module": ">0.5.1",
-        "doctrine/orm": ">2.4.4",
+        "doctrine/orm": "^2.4.4",
         "laminas/laminas-dependency-plugin": "^1.0 | ^2.0",
         "laminas/laminas-code": "^3.0.2 | ^4.0",
         "laminas/laminas-config": "^2.6 | ^3.0",
