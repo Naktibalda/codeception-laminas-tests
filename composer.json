@@ -33,10 +33,15 @@
         "laminas/laminas-view": "^2.8"
     },
     "require-dev": {
-        "codeception/codeception": "^5.0.0-alpha2",
+        "codeception/codeception": "^5.0",
         "codeception/module-doctrine2": "^3.0",
         "codeception/module-asserts": "^3.0",
         "codeception/module-rest": "^3.0",
-        "codeception/module-laminas": "dev-codecept5"
+        "codeception/module-laminas": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "laminas/laminas-dependency-plugin": true
+        }
     }
 }
