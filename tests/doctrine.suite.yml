@@ -4,6 +4,6 @@ modules:
         - \Helper\Doctrine
         - Laminas:
             em_service: doctrine.entitymanager.orm_default
-        - Doctrine2:
+        - Doctrine:
             depends:
                 Laminas
